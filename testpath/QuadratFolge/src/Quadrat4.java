@@ -3,6 +3,7 @@ public class Quadrat4 {
 	public static double quadrat(double z) {
 		// return z*z;
 		return  Math.pow(z,0.5);
+		
 	}
 	public static String[] eingabe(){
 		String inputNum[]; //Deklaration ohne feste Laenge
@@ -59,6 +60,7 @@ public class Quadrat4 {
 		integerNumber = new int[2]; //Erzeugung mit Laenge 2
 		integerNumber[0] =  1;// Zuweisung  
 		integerNumber[1] = integerNumber[0] + 1;// Zuweisung
+		int r = 1;// Reiner Dummy Eintrag um eine Änderung für Git zu emulieren
 		
 		// Beginn Eingabe();
 		String[] s_inputNumber = new String[2];// Auf dieser Ebene wird nur eine neue eigenen Variable angelegt
